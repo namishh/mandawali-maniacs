@@ -1,0 +1,106 @@
+.merch{
+  color: rgb(122, 8, 145);
+  padding: 3rem 2rem;
+}
+
+.merch-content{
+  display: flex;
+}
+
+.merch-box {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.merch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.merch-card{
+  padding: 3rem;
+  min-height: 80vh;
+  width: 35rem;
+  box-shadow: 0 2rem 2rem rgba(0,0,0,0.1),
+              0 0 5rem rgba(0, 0 , 0, .1);
+  border-radius: 2.4rem;
+}
+
+.merch-item{
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.merch-img{
+  height: 27rem;
+  z-index: -1;
+
+}
+
+.merch-circle{
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  z-index: -2;
+  top: 6.6rem;
+}
+
+.merch-info{
+  margin-top: 2rem;
+}
+.merch-name {
+  font-size: 3rem;
+}
+
+.merch-info h3{
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 2rem 0;
+}
+
+.merch-sizes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.merch-sizes button{
+  padding: 0.3rem 1.5rem;
+  background : none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  box-shadow: 0 5px 10px rgba(0,0,0, 0.1);
+  color: rgb(122, 8, 145);
+  border-radius: 5px;
+}
+
+.merch-sizes .active{
+  background : rgb(122, 8, 145);
+  color: white;
+}
+
+.merch-pruchase {
+  margin-top: 4rem;
+}
+
+.merch-pruchase button {
+  width: 100%;
+  padding: 1rem 0;
+  background : rgb(122, 8, 145);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+}

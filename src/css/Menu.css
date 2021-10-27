@@ -1,0 +1,62 @@
+.navbar-links{
+  z-index: 234564345735674674;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: rgb(122, 8, 145);
+  transform: translateY(-160rem);
+  height: 100vh;
+  width: 100vw;
+  transition: .5s;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.navbar-close {
+  position: absolute;
+  top: 3.6rem;
+  right: 2.6rem;
+  background-color: transparent;
+  color: white;
+  font-size: 4rem;
+  cursor: pointer;
+  border: none;
+}
+.navbar-links-active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+.navbar-toggle i {
+  z-index: 3;
+  font-size: 4rem;
+  cursor: pointer;
+}
+.invisible {
+  opacity: 0;
+  visibility: none;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  list-style: none;
+}
+
+.navbar-list li a {
+  font-size: 4rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  position: relative;
+  transition: .6s;
+  z-index: 4;
+  padding: 1rem;
+
+}
+

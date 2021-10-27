@@ -1,0 +1,41 @@
+.backdrop {
+  position: fixed;
+  top : 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 34565254544543524352352552345354534256758980756;
+}
+
+.modal {
+  position: relative;
+  width: clamp(60%, 700px , 90%);
+  height: 70%;
+  margin: auto;
+  padding: 0 2rem;
+  border-radius: 10px;
+  background-color: white;
+  z-index: 34565254544543455524352352552345354534256758980756;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-close{
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+
+}
+
+.modal-content{
+  padding: 3rem 1rem;
+}
